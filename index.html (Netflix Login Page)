@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Netflix Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="login-container">
+  <div class="login-box">
+    <h1>NETFLIX</h1>
+    <input type="text" id="username" placeholder="Email or phone number">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="login()">Sign In</button>
+    <p id="error"></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
